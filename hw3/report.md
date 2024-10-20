@@ -1,17 +1,18 @@
-Introduction
+# Introduction
 This research is aimed at clarifying the phylogenetic position of different Testudines, namely Chelonidae, Dermochelyidae, Testudinidae, Emydidae and Trioychidae families. 
 Chelonidae and Dermochelyidae belong to sea turtles from a common superfamily Chelonioidea, whereas Testudinidae include terrestial tortoises. Emydidae is represented by asemiaquatic Trachemys scripta 
 elegans, and Trionyx triunguis is a freshwater turtle from Trioychidae family. 
 The assumptions were that Testudinidae, being the only terrestrial turtles here, form a separate clade to all others. Study[1] claimed that Emydidae were more closely related to Testudinidae, and Chelonioidea formed sequential sister groups to them, with Dermochelyidae forming a monophyletic group. Study[2] opposed it by telling that Tryonichia stand distinct to other turtles and that Dermochelyidae is a sister taxon to Chelonidae.
 
-Methods
+# Methods
 Samples for 9 species of turtles were accessed from Genbank. Alligator missipiensis was chosen as outgroup. Four gene markers were chosen: 12S, 16S, COI and RAG-1.
 As there were several sequences for the same gene marker and species, consensus sequences were made for them and aligned with MAFFT for each gene marker. Then, supermatrix of concatenated genes was built with AMAS.
 Both separate gene markes and concatened supermatrix were used as data, as well as all sequences ungrouped.
 Several trees were built with different approaches and visualized with ITOL: neighbor-joining with phylip, maximum likelihood with IQTree and Bayesian with MrBayes.
 
-Results
-There were significant differences in inferred phylogenetic relationships between species when using different markers. 
+# Results
+There were significant differences in inferred phylogenetic relationships between species when using different markers and phylogenetic approaches. Bayesian method showed the most bootstrap support when building trees for separate genes, but the supermatrix tree has unresolved polytomies, probably to many differences between gene models.
+
 For ML approach, the most reliable bootstrap support values were found for 12S gene, others had weak support. 
 
 12S
@@ -25,6 +26,23 @@ COI
 
 RAG-1
 ![IfSzGHLR-nu1mCVEjkzGnA](https://github.com/user-attachments/assets/fadbc4cc-57a2-40db-80cc-d8d750cbd6a4)
+
+Bayesian trees for single genes:
+
+12S
+![72eiOh4XHr5MD3xHKdyhlg](https://github.com/user-attachments/assets/b8f08d54-9164-4f2c-865c-b3f57b32a826)
+
+16S
+
+![cSwpBfThU-AhQh40xDTrew](https://github.com/user-attachments/assets/4c668303-6779-4d7b-98c3-02333309aabf)
+
+COI
+
+![MJrqah-pQ8p-jfy9Qwfp3Q](https://github.com/user-attachments/assets/d79f3ae2-9749-49eb-9dc2-1064654c280c)
+
+RAG
+
+![Au5UqGjj3y8-ru-qmuNTxA](https://github.com/user-attachments/assets/e8804df4-19bf-4344-b70a-91f25df6f66c)
 
 
 As for NJ trees, the 12S tree is consistant with ML one, whereas others also have weak support and negative branch length values.
@@ -43,18 +61,17 @@ Concatenated Bayes tree:
 
 ![Bayes_consensus](https://github.com/user-attachments/assets/c9b6a693-d377-478b-b8b3-6b7cdc3bad6a)
 
-The tree with all sequences was also made to check some of the reasons for weak support:
-
-![all_sequences](https://github.com/user-attachments/assets/cb58b5f1-8bbc-44f6-a914-1bf4c49fa6d4)
 
 
-Discussion
-The derived trees do not share consistency with each other. Judging by most trees, Testudines do stand furthest from other turtles. That has sense, since they have different lifestyle than other turtles that live in water. However, the order of separating is reversed for NJ and ML method, where NJ suggests Testudines were the first to separate from the outgroup, and ML suggests they were the last. 
-Dermochelys coriaces mostly stands close to Chelonidae representatives, but clearly forms a separate group, proving that they are from different families but the same superfamily.
-As for Emydidae group, in most trees, it is close to Testudines and suggest that it does not form any group distinct from all others. However, Bayesian tree based on supermatrix data, indeed suggests that Trachemys scripta diverges the first, however the branching order with Tryonix triunguis is not clear due to polytomy. 
-Also, the findings oppose the claim in study [2] that Dermochelys coriaces is more closely related to Caretta caretta than Chelonia mydas when based on RAG-1 and COI genes. 
+# Discussion
+The derived trees do not share consistency with each other. The order of separating for Testudines from other turtles is reversed for NJ and ML method, where NJ suggests Testudines were the first to separate from the outgroup, and ML suggests they were the last. The same is true for analysis of separate genes, where 16S indicates that Testudines were the last to branch off from water turtles and others, especially 12S, suggest the opposite.
+
+Dermochelys coriaces mostly stands close to Chelonidae representatives, but clearly forms a separate group, proving that they are from different families but the same superfamily. Also, the findings oppose the claim in study [2] that Dermochelys coriaces is more closely related to Caretta caretta than Chelonia mydas when based on RAG-1 and COI genes. 
+
+As for Emydidae group, in ML and NJ trees, it is close to Testudines and suggest that it does not form any group distinct from all others. However, Bayesian tree based on supermatrix data, indeed suggests that Trachemys scripta diverges the first, however the branching order with Tryonix triunguis is not clear due to polytomy. Bayesian trees for 16S, COI and especially RAG genes also suggest that Emydidae stand furthest from other turtles. It can be explained by America being its prime areal, whereas other turtles inhabit other continents or have wider geography in general. 
+
 Overall, supermatrix-based ML tree repeats the scheme of branching order described in study [1].  
 
-Literature
+# Literature
 1. "Molecular phylogenetics of some endangered turtles reveals new close genetic relationships" ( https://doi.org/10.26577/ijbch.2023.v16.i1.02)
 2. "Phylogenomic analyses of 539 highly informative loci dates a fully resolved time tree for the major clades of living turtles (Testudines)" (https://doi.org/10.1016/j.ympev.2017.07.006)
