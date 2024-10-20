@@ -1,5 +1,8 @@
 Introduction
-This research was aimed at clarifying the phylogenetic (state) of ... in turtles' family and the difference of impact of gene markers.
+This research is aimed at clarifying the phylogenetic position of different Testudines, namely Chelonidae, Dermochelyidae, Testudinidae, Emydidae and Trioychidae families. 
+Chelonidae and Dermochelyidae belong to sea turtles from a common superfamily Chelonioidea, whereas Testudinidae include terrestial tortoises. Emydidae is represented by asemiaquatic Trachemys scripta 
+elegans, and Trionyx triunguis is a freshwater turtle from Trioychidae family. 
+The assumptions were that Testudinidae, being the only terrestrial turtles here, form a separate clade to all others. Study[1] claimed that Emydidae were more closely related to Testudinidae, and Chelonioidea formed sequential sister groups to them, with Dermochelyidae forming a monophyletic group. Study[2] opposed it by telling that Tryonichia stand distinct to other turtles and that Dermochelyidae is a sister taxon to Chelonidae.
 
 Methods
 Samples for 9 species of turtles were accessed from Genbank. Alligator missipiensis was chosen as outgroup. Four gene markers were chosen: 12S, 16S, COI and RAG-1.
@@ -46,3 +49,12 @@ The tree with all sequences was also made to check some of the reasons for weak 
 
 
 Discussion
+The derived trees do not share consistency with each other. Judging by most trees, Testudines do stand furthest from other turtles. That has sense, since they have different lifestyle than other turtles that live in water. However, the order of separating is reversed for NJ and ML method, where NJ suggests Testudines were the first to separate from the outgroup, and ML suggests they were the last. 
+Dermochelys coriaces mostly stands close to Chelonidae representatives, but clearly forms a separate group, proving that they are from different families but the same superfamily.
+As for Emydidae group, in most trees, it is close to Testudines and suggest that it does not form any group distinct from all others. However, Bayesian tree based on supermatrix data, indeed suggests that Trachemys scripta diverges the first, however the branching order with Tryonix triunguis is not clear due to polytomy. 
+Also, the findings oppose the claim in study [2] that Dermochelys coriaces is more closely related to Caretta caretta than Chelonia mydas when based on RAG-1 and COI genes. 
+Overall, supermatrix-based ML tree repeats the scheme of branching order described in study [1].  
+
+Literature
+1. "Molecular phylogenetics of some endangered turtles reveals new close genetic relationships" ( https://doi.org/10.26577/ijbch.2023.v16.i1.02)
+2. "Phylogenomic analyses of 539 highly informative loci dates a fully resolved time tree for the major clades of living turtles (Testudines)" (https://doi.org/10.1016/j.ympev.2017.07.006)
