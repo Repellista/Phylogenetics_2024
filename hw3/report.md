@@ -224,11 +224,14 @@ The derived trees do not share consistency with each other. The order of separat
 Dermochelys coriaces mostly stands close to Chelonidae representatives, but clearly forms a separate group, proving that they are from different families but the same superfamily. Also, the findings oppose the claim in study [2] that Dermochelys coriaces is more closely related to Caretta caretta than Chelonia mydas when based on RAG-1 and COI genes. 
 
 As for Emydidae group, in ML and NJ trees, it is close to Testudines and suggest that it does not form any group distinct from all others. However, Bayesian tree based on supermatrix data, indeed suggests that Trachemys scripta diverges the first, however the branching order with Tryonix triunguis is not clear due to polytomy. Bayesian trees for 16S, COI and especially RAG genes also suggest that Emydidae stand furthest from other turtles. It can be explained by America being its prime areal, whereas other turtles inhabit other continents or have wider geography in general. 
+Recent study [3] also places Tryonichidae as lineage which appeared first.
 
 Supermatrix-based ML tree is close to the scheme of branching order described in study [1]. However, opposite to the study, this data suggests that other turtles diverge after chelonidae, and do not form sister taxon to them.
 
-Overall, we can see that terrestrial turtles appeared after the sea and freshwater ones. However, the order for sea and freshwater turtles is not clear.
+
+
 
 # Literature
 1. "Molecular phylogenetics of some endangered turtles reveals new close genetic relationships" ( https://doi.org/10.26577/ijbch.2023.v16.i1.02)
 2. "Phylogenomic analyses of 539 highly informative loci dates a fully resolved time tree for the major clades of living turtles (Testudines)" (https://doi.org/10.1016/j.ympev.2017.07.006)
+3. A global phylogeny of turtles reveals a burst of climate-associated diversification on continental margins  (doi: 10.1073/pnas.2012215118)
