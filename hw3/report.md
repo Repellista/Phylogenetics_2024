@@ -2,7 +2,7 @@
 This research is aimed at clarifying the phylogenetic position of different Testudines, namely Chelonidae, Dermochelyidae, Testudinidae, Emydidae and Trioychidae families. 
 Chelonidae and Dermochelyidae belong to sea turtles from a common superfamily Chelonioidea, whereas Testudinidae include terrestial tortoises. Emydidae is represented by asemiaquatic Trachemys scripta 
 elegans, and Trionyx triunguis is a freshwater turtle from Trioychidae family. 
-The assumptions were that Testudinidae, being the only terrestrial turtles here, form a separate clade to all others. Study[1] claimed that Emydidae were more closely related to Testudinidae, and Chelonioidea formed sequential sister groups to them, with Dermochelyidae forming a monophyletic group. Study[2] opposed it by telling that Tryonichia stand distinct to other turtles and that Dermochelyidae is a sister taxon to Chelonidae.
+The research is aimed as clarifying the order of divergence of sea, terrestrial and freshwater turtles. Study[1] claimed that Emydidae were more closely related to Testudinidae. Study[2] was telling that Tryonichia stand distinct to other turtles.
 
 # Methods
 Samples for 9 species of turtles were accessed from Genbank. Table with accession numbers was taken from study [2]. Alligator missipiensis was chosen as outgroup. Four gene markers were chosen: 12S, 16S, COI and RAG-1.
@@ -225,7 +225,9 @@ Dermochelys coriaces mostly stands close to Chelonidae representatives, but clea
 
 As for Emydidae group, in ML and NJ trees, it is close to Testudines and suggest that it does not form any group distinct from all others. However, Bayesian tree based on supermatrix data, indeed suggests that Trachemys scripta diverges the first, however the branching order with Tryonix triunguis is not clear due to polytomy. Bayesian trees for 16S, COI and especially RAG genes also suggest that Emydidae stand furthest from other turtles. It can be explained by America being its prime areal, whereas other turtles inhabit other continents or have wider geography in general. 
 
-Overall, supermatrix-based ML tree repeats the scheme of branching order described in study [1].  
+Supermatrix-based ML tree is close to the scheme of branching order described in study [1]. However, opposite to the study, this data suggests that other turtles diverge after chelonidae, and do not form sister taxon to them.
+
+Overall, we can see that terrestrial turtles appeared after the sea and freshwater ones. However, the order for sea and freshwater turtles is not clear.
 
 # Literature
 1. "Molecular phylogenetics of some endangered turtles reveals new close genetic relationships" ( https://doi.org/10.26577/ijbch.2023.v16.i1.02)
