@@ -206,7 +206,7 @@ As for NJ trees, the 12S tree is consistant with ML one, whereas others also hav
 
 Concatenated NJ tree: 
 
-![NJ_outgroup_consensus_001](https://github.com/user-attachments/assets/9fd0c802-9695-4ae4-a1ef-f54dabbb1c76)
+![jA2YuxKtxlPPrH3D6XRvXg](https://github.com/user-attachments/assets/b4036efd-1417-4b3b-ac06-5d7b3201d03d)
 
 Concatenated ML tree:
 
