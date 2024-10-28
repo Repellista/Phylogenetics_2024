@@ -2,22 +2,7 @@
 This research is aimed at clarifying the phylogenetic position of different Testudines, namely Chelonidae, Dermochelyidae, Testudinidae, Emydidae and Trioychidae families. Chelonidae and Dermochelyidae belong to sea turtles from a common superfamily Chelonioidea, whereas Testudinidae include terrestial tortoises. Emydidae is represented by asemiaquatic Trachemys scripta elegans, and Trionyx triunguis is a freshwater turtle from Trioychidae family. The research is aimed as clarifying the order of divergence of sea, terrestrial and freshwater turtles. Study[1] claimed that Emydidae were more closely related to Testudinidae. Study[2] was telling that Tryonichia stand distinct to other turtles.
 
 # Methods
-Samples for 11 species of turtles were accessed from Genbank. Table with accession numbers was taken from study [2] and some other species were added for better family resolvance. Alligator missipiensis was chosen as outgroup. 
-```
-import Bio
-from Bio import Entrez
-from Bio import SeqIO
-Entrez.email = "..."
-import pandas as pd
-table=pd.read_csv("/content/tortoise_data_numbers.csv", sep=";")
-lst12S = table[table['Gene']=='12S']
-an_12S = lst12S['Accession number'].str.split('[,;]', expand=False).explode().tolist()
-handle1 = Entrez.efetch(db="nucleotide", id=an_12S, rettype="fasta", retmode="text")
-filename='12S.fasta'
-with open(filename, 'w') as file:
-  file.write(handle1.read())
-```
-In the same manner, data for other genes and Alligator missipiensis was retrived.
+Sample mitochondrion genomes for 11 species of turtles were downloaded from Genbank. Table with accession numbers was taken from study [2] and some other species were added for better family resolvance. Alligator missipiensis was chosen as outgroup. 
 
 Alignment was done with MAFFT for each gene marker. 
 ```
